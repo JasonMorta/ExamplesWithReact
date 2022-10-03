@@ -10,8 +10,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Instance />
+      
       </header>
+      <Instance />
     </div>
   );
 }
