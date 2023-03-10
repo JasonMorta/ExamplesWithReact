@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Instance() {
+export default function RENDER_ARRAY_OBJECT() {
 
 const employees = [
   { firstName: "John", lastName: "Doe", age: 32 },
