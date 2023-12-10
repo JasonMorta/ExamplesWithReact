@@ -14,11 +14,11 @@ const employees = [
     <div style={{minWidth: "50%"}}>
       <h1>List</h1>
 
-      {employees.map(obj => 
-        <ul class="list-group">
-          <li class="list-group-item"><b>Name:</b> {obj.firstName}</li>
-          <li class="list-group-item"><b>Surname: </b>{obj.lastName}</li>
-          <li class="list-group-item"><b>Age: </b>{obj.age}</li>
+      {employees.map((obj, index) => 
+        <ul className="list-group" key={index}>
+          <li className="list-group-item"><b>Name:</b> {obj.firstName}</li>
+          <li className="list-group-item"><b>Surname: </b>{obj.lastName}</li>
+          <li className="list-group-item"><b>Age: </b>{obj.age}</li>
         </ul>
       )}
     </div>

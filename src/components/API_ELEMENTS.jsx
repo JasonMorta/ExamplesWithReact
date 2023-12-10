@@ -22,7 +22,7 @@ export default function API_ELEMENTS() {
 
   return (
     <div>
-      {poke.sprites ? <img src={poke.sprites.other["official-artwork"].front_default} alt="animal" /> : <p>Loading</p>}
+      {poke?.sprites ? <img src={poke?.sprites?.other["official-artwork"].front_default} alt="animal" /> : <p>Loading</p>}
     </div>
   )
 }

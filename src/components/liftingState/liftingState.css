@@ -1,0 +1,21 @@
+.child {
+    border: 1px solid black;
+    margin: 3px;
+}
+.child {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.parent-container {
+    border: 1px solid magenta;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
